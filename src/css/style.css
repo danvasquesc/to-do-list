@@ -44,4 +44,12 @@ h1 {
   border: 0.06rem solid #3300ff;
   border-radius: 0.3rem;
   cursor: pointer;
+
+  transition: background-color 400ms;
 }
+
+
+#add-task-button:hover {
+  background-color: #3300ff;
+}
+
