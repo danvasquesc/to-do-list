@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minha To-Do List</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <!--1. criar main para todo o conteudo
+        2. criar o input e botao para colocar as tarefas
+        3. criar a lsta das tarefas
+        4. linkar o js      
+        
+        -->
+
+    <main class="container">
+      <div class="add-task">
+        <input
+          type="text"
+          id="new-task"
+          placeholder="Adicionar nova tarefa..."
+        />
+        <button id="add-task-btn">Adicionar</button>
+      </div>
+    </main>
+  </body>
 </html>
