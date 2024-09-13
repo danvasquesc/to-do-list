@@ -15,7 +15,13 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
-    color: #000000;
-    margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 1.25rem;
+}
+
+.add-task {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
