@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Arial";
+  src: url(../fonts/arial.ttf);
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Arial", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
